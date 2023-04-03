@@ -19,14 +19,15 @@ color_list = ["blue", "red", "green", "yellow", "purple"]
 # t.circle(100)
 # t.end_fill()
 
-for color in color_list:
-    t.fillcolor(color)
-    t.begin_fill()
-    t.circle(50)
-    t.end_fill()
+# 아래 반복문은 다음 시간에
+# for color in color_list:
+#     t.fillcolor(color)
+#     t.begin_fill()
+#     t.circle(50)
+#     t.end_fill()
 
-    t.penup()
-    t.fd(50)
-    t.pendown()
+#     t.penup()
+#     t.fd(50)
+#     t.pendown()
 
 turtle.mainloop()
