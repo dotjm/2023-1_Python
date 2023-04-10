@@ -4,8 +4,8 @@ import turtle
 t = turtle.Turtle()
 
 screen = turtle.Screen()
-image1 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\500-front.png"
-image2 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\500-back.png"
+image1 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\500-front.gif"
+image2 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\500-back.gif"
 
 screen.addshape(image1)
 screen.addshape(image2)
@@ -22,3 +22,5 @@ else:
     print("뒷면")
     t.shape(image2)
     t.stamp()
+
+turtle.mainloop()
