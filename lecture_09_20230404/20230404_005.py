@@ -4,8 +4,10 @@ import turtle
 t = turtle.Turtle()
 
 screen = turtle.Screen()
-image1 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\500-front.gif"
-image2 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\500-back.gif"
+# image1 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\500-front.gif" # 500원 동전 이미지 뒷면
+# image2 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\500-back.gif" # 500원 동전 이미지 뒷면
+image1 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\a.gif" # 교재 이미지 - 동전 앞면 (교수님 제공)
+image2 = "d:\\University\\Develop\\2023-1_Python\\lecture_09_20230404\\b.gif"  # 교재 이미지 - 동전 뒷면 (교수님 제공)
 
 screen.addshape(image1)
 screen.addshape(image2)
